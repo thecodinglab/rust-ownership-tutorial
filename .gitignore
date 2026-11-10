@@ -1,0 +1,39 @@
+# Rust
+target/
+code/rust/live/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+_minted*/
+*.vrb
+*.listing
+
+# Local only
+archive/
+*.zip
+code/.cargo/
+Cargo.lock
+slides/cards/
+presentation.md
+
+# Presenter-only material (kept local, not published)
+code/README.md
+code/verify.sh
+code/live.sh
+code/rust/step-*/
+code/rust/opt-*/
+code/rust/quiz/
+slides/runbook.*
+slides/gen-diffs.py
+slides/latexmkrc
+
+# LaTeX sources (only PDFs are published)
+*.tex
